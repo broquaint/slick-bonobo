@@ -1,0 +1,10 @@
+{
+    "name": "Slick Bonobo"
+  , "version": "0.0.1"
+  , "description": "Server side Greasemonkey"
+  , "keywords": []
+  , "author": "Dan Brook <broq@cpan.org>"
+  , "dependencies": {}
+  , "main": "index"
+  , "engines": { "node": "0.4.x" }
+}
