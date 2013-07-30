@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 sb = require('../lib/SlickBonobo').SlickBonobo;
-new sb
+new sb().go()
