@@ -1,0 +1,11 @@
+{
+    "userScripts": [
+        {
+            "name":    "Test Script",
+            "version":  "0.1",
+            "include": ["http://broquaint.com/"],
+            "enabled": true,
+            "path":    "test/test.user.js"
+        }
+    ]
+}
