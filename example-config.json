@@ -1,0 +1,17 @@
+{
+    "allowedIPs": [
+        "188.222.164.203"
+    ],
+
+    "PageMunger": {
+        "userScripts": [
+            {
+                "name":    "simple demo",
+                "version":  "0.1",
+                "include": ["http://broquaint.com/"],
+                "enabled": true,
+                "path":    "/home/dbrook/.slick-bonobo/simple-demo.js"
+            }
+        ]
+    }
+}
