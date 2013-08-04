@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
-sb = require('../lib/SlickBonobo').SlickBonobo;
-new sb().go()
+// TODO Some argv parsing
+require('../lib/SlickBonobo').SlickBonobo.go({
+    config_path: '/home/dbrook/dev/Slick-Bonobo/example-config.json'
+});
