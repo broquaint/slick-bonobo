@@ -7,7 +7,7 @@ var SlickBonobo = require('../lib/SlickBonobo').SlickBonobo
 
 describe('SlickBonobo', function() {
     it('should construct', function() {
-        assert(new SlickBonobo);
+        assert(new SlickBonobo({config: {}}));
     });
 });
 
