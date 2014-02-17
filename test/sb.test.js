@@ -1,6 +1,7 @@
-var SlickBonobo = require('../lib/SlickBonobo').SlickBonobo
-  , assert = require('assert')
-  , should = require('should')
+var SlickBonobo = require('../lib/slickbonobo'),
+        context = require('../lib/context'),
+         assert = require('assert'),
+         should = require('should')
 ;
 //  , http   = require('http');
 
@@ -50,9 +51,8 @@ describe('SlickBonobo.UserScript', function() {
 
 describe('SlickBonobo.PageMunger', function() { 
     function testPageMunger () {
-        return new SlickBonobo.PageMunger({
-            config_path: 'test/test-config.json'
-        });
+        var config = context.loadAndValidateFile('test/test-config.json');
+        return new SlickBonobo.PageMunger(config.get('PageMunger'));
     }
 
     describe ('new', function() { 

@@ -1,13 +1,14 @@
 {
-    "name": "slick-bonobo"
-  , "version": "0.0.1"
-  , "description": "Server side Greasemonkey"
-  , "keywords": []
-  , "author": "Dan Brook <broq@cpan.org>"
-  , "dependencies": {
+    "name": "slick-bonobo",
+    "version": "0.0.1",
+    "description": "Server side Greasemonkey",
+    "keywords": [],
+    "author": "Dan Brook <dan@broquaint.com>",
+    "dependencies": {
       "jsdom": ">=0.8",
-      "http-proxy": "*"
-  }
-  , "main": "index"
-  , "engines": { "node": "0.10.x" }
+      "underscore": ">=1.5.2",
+      "convict": ">=0.4.2"
+  },
+  "main": "index",
+  "engines": { "node": "0.10.x" }
 }
